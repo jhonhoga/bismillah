@@ -13,7 +13,7 @@ p{
 
 /* Headings */
 .big-heading{
-  font-weight: bold;
+  font-weight: normal;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -31,7 +31,7 @@ padding: 6% 12%;
 }
 /* Sections */
 .colored-section{
-  background-color: #18437D;
+  background-color: #1a1a2e;
   color: #fff;
 }
 .white-section{
@@ -65,11 +65,12 @@ padding: 6% 12%;
 
 .dropdown-menu{
   opacity: 80%;
-  background-color: #18437D;
+  background-color: #1a1a2e;
 }
 
 .dropdown-item{
   color: white;
+  text-align: center;
 }
 /* Title Section */
 
@@ -85,8 +86,9 @@ padding: 6% 12%;
 margin: 5% 3% 5% 0;
 }
 /* Phone Image */
-
-
+.video-bismillah{
+border-radius: 100%;
+}
 
 /* Promociones Section */
 #features{
@@ -114,7 +116,7 @@ margin: 5% 3% 5% 0;
 /* Testimonial Section */
 
 #testimonials{
-background-color: #8FC641;
+background-color: #e94560;
 }
 
 .testimonial-text{
@@ -127,16 +129,6 @@ background-color: #8FC641;
   width: 10%;
   margin: 20px;
 }
-
-/* #press{
-  background-color: #8FC641;
-  padding-bottom: 3%;
-}
-
-.press-img{
-  width: 10%;
-  margin: 20px 20px 50px;
-} */
 
 /* Pricing section */
 #pricing{
@@ -160,7 +152,7 @@ margin-top: 55px;
   padding: 5%;
 }
 .icons-media{
-  color: #18437D;
+  color: #1a1a2e;
   padding: 3% 1% 2%;
 }
 
@@ -195,5 +187,9 @@ margin-top: 55px;
   }
 
   .icons-media{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+}
+p{
+  font-size: 1.5rem;
+}
 }
