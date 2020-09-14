@@ -1,0 +1,192 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid{
+padding: 6% 12%;
+}
+.container{
+  padding: 2% 1%;
+}
+/* Sections */
+.colored-section{
+  background-color: #18437D;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.bismillah-logo{
+  width: 20%;
+}
+
+.miracle-logo{
+  width: 10%;
+}
+
+.nav-item{
+  padding: 0px 8px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.dropdown-menu{
+  opacity: 80%;
+  background-color: #18437D;
+}
+
+.dropdown-item{
+  color: white;
+}
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 8% 3%;
+  text-align: left;
+}
+.second-column{
+  text-align: right;
+}
+/* Download Buttons */
+.download-button{
+margin: 5% 3% 5% 0;
+}
+/* Phone Image */
+
+
+
+/* Promociones Section */
+#features{
+  position: relative;
+  padding-bottom: 1px;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.promo-imagenes{
+  width: 100%;
+  border-radius: 10%;
+  margin-bottom: 10%;
+}
+#features .container-fluid{
+  padding: 1% 8% 3%;
+}
+
+#features .container{
+  padding: 4% 1% 1%;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+background-color: #8FC641;
+}
+
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* #press{
+  background-color: #8FC641;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 10%;
+  margin: 20px 20px 50px;
+} */
+
+/* Pricing section */
+#pricing{
+padding: 100px;
+}
+
+.price-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.sign-button{
+margin-top: 55px;
+}
+
+#footer{
+  padding: 5%;
+}
+.icons-media{
+  color: #18437D;
+  padding: 3% 1% 2%;
+}
+
+.bismillah-footer{
+  width: 50%;
+}
+
+.experiencias-footer{
+  margin-bottom: 0px;
+}
+.equipo-miracle{
+  margin-top: 2.5%;
+}
+/* Smaller Displays */
+@media (max-width:1028px){
+  #title .container-fluid{
+    text-align: center;
+  }
+  .second-column{
+    text-align: center;
+  }
+  .bismillah-logo{
+    width: 30%;
+  }
+
+  .miracle-logo{
+    width: 20%;
+  }
+}
