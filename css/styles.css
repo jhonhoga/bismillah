@@ -148,8 +148,11 @@ background-color: #e94560;
   margin: 20px;
 }
 
-/* Pricing section */
+/* Pricing and event section */
 #pricing{
+padding: 0;
+}
+#events{
 padding: 100px;
 }
 
@@ -166,6 +169,20 @@ padding: 100px;
 margin-top: 25px;
 }
 
+/* Whatsapp icon */
+#fixedbutton{
+  padding: 1px;
+  text-align: right;
+  font-size: 3.5rem;
+  position:  fixed;
+  bottom: -10px;
+  right: -100px;
+}
+
+.whatsapp-button{
+  width: 20%;
+}
+/* Footer */
 #footer{
   padding: 5%;
 }
