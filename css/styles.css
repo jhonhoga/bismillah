@@ -1,6 +1,7 @@
 body{
-  font-family: "Montserrat";
+  font-family: "Ubuntu";
   text-align: center;
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -13,12 +14,15 @@ p{
 
 /* Headings */
 .big-heading{
+  font-family: "Pacifico";
   font-weight: normal;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 .section-heading{
+  font-family: "Pacifico";
+  font-weight: normal;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -36,10 +40,18 @@ padding: 6% 12%;
 }
 .white-section{
   background-color: #fff;
+  color: #1a1a2e;
 }
 /* Navigation Bar */
+#nav .container-fluid{
+  padding: 1% 8%;
+  position: fixed;
+  background-color: #1a1a2e;
+  z-index: 1;
+
+}
 .navbar{
-  padding: 0 0 4.5rem;
+  padding: 0;
 }
 .navbar-brand{
   font-family: "Ubuntu";
@@ -72,27 +84,29 @@ padding: 6% 12%;
   color: white;
   text-align: center;
 }
+
 /* Title Section */
 
 #title .container-fluid{
-  padding: 3% 8% 3%;
+  padding: 10% 8% 3%;
   text-align: left;
+
 }
 .second-column{
-  text-align: right;
+  text-align: center;
 }
 /* Download Buttons */
 .download-button{
 margin: 5% 3% 5% 0;
 }
 /* Phone Image */
-.video-bismillah{
+.img-title{
 border-radius: 100%;
+width: 60%;
 }
 
 /* Promociones Section */
 #features{
-  position: relative;
   padding-bottom: 1px;
 }
 
@@ -111,6 +125,10 @@ border-radius: 100%;
 
 #features .container{
   padding: 4% 1% 1%;
+}
+.carousel-button{
+  width: 50px;
+  height: 50px;
 }
 
 /* Testimonial Section */
@@ -145,7 +163,7 @@ padding: 100px;
 }
 
 .sign-button{
-margin-top: 55px;
+margin-top: 25px;
 }
 
 #footer{
@@ -170,6 +188,7 @@ margin-top: 55px;
 @media (max-width:1028px){
   #title .container-fluid{
     text-align: center;
+    padding: 14% 8% 3%;
   }
   .second-column{
     text-align: center;
@@ -191,5 +210,6 @@ margin-top: 55px;
 }
 p{
   font-size: 1.5rem;
+  font-weight: bold;
 }
 }
